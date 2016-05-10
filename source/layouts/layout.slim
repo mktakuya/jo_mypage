@@ -6,10 +6,10 @@ html
     meta[name="viewport" content="width=device-width, initial-scale=1"]
     title
       = current_page.data.title || "mktakuyaのページ"
-    = stylesheet_link_tag "bootstrap.min"
-    = stylesheet_link_tag "font-awesome.min"
-    = javascript_include_tag "jquery.min"
-    = javascript_include_tag "bootstrap.min"
+    link rel="stylesheet" href="./stylesheets/bootstrap.min.css"
+    link rel="stylesheet" href="./stylesheets/font-awesome.min.css"
+    script src="./javascripts/jquery.min.js"
+    script src="./javacripts/bootstrap.min.js"
   body
     .container
       .row
